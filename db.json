@@ -1,62 +1,61 @@
 {
     "users": [
-        {
-        "id": 1,
-        "name": "John Doe",
-        "email": "john@example.com",
-        "password": "password",
-        "profession": "Web Developer",
-        "skills": [
-        "HTML",
-        "CSS",
-        "JavaScript"
-        ],
-        "hourly_rate": 25,
-        "profile_picture": "profile1.jpg",
-        "isBooked": false
-        },
-        {
-        "id": 2,
-        "name": "Jane Smith",
-        "email": "jane@example.com",
-        "password": "password",
-        "profession": "Graphic Designer",
-        "skills": [
-        "Photoshop",
-        "Illustrator"
-        ],
-        "hourly_rate": 30,
-        "profile_picture": "profile2.jpg",
-        "isBooked": true
-        },
-        {
-        "name": "Ankit",
-        "email": "ankitmishra517@gmail.com",
-        "password": "ankit",
-        "profession": "Web Developer",
-        "skills": [
-        "HTML",
-        "CSS",
-        "Javascript",
-        "React"
-        ],
-        "hourly_rate": 7000,
-        "profile_picture": "https://placehold.co/200x200",
-        "isBooked": false,
-        "id": 3
-        },
-        {
-        "name": "Shivam",
-        "email": "shivam@gmail.com",
-        "password": "shivam",
-        "profession": "Student",
-        "skills": [
-        "Photoshop"
-        ],
-        "hourly_rate": 400,
-        "profile_picture": "https://placehold.co/200x200",
-        "isBooked": false,
-        "id": 4
-        }
-        ]
-}
+      {
+        "Username": "Ankit",
+        "Avatar": "https://placehold.co/200x200",
+        "Email": "ankit@gmail.com",
+        "Password": "ankit123",
+        "id": 1
+      }
+    ],
+    "forum": [
+      {
+        "UserName": "Ankit",
+        "Title": "Fetch",
+        "Language": "Javascript",
+        "No_of_Upvotes": 0,
+        "No_of_Answers": "0",
+        "Posted_Date": "2023-07-04",
+        "id": 1
+      },
+      {
+        "UserName": "Rahul",
+        "Title": "Java",
+        "Language": "Java",
+        "No_of_Upvotes": 0,
+        "No_of_Answers": "0",
+        "Posted_Date": "2024-06-02",
+        "id": 2
+      }
+    ],
+    "question": {
+      "userAvatar": "user_avatar.png",
+      "username": "JohnDoe123",
+      "questionTitle": "How to sort an array in JavaScript?",
+      "questionDescription": "I'm struggling with sorting an array in JavaScript. Can someone please provide guidance?",
+      "language": "JavaScript",
+      "upvotes": 10,
+      "answers": 3,
+      "postedDate": "2023-05-30"
+    },
+    "answers": [
+      {
+        "userAvatar": "user_avatar2.png",
+        "username": "JaneSmith456",
+        "answerText": "To sort an array in JavaScript, you can use the built-in 'sort' method...",
+        "postedDate": "2023-05-31"
+      },
+      {
+        "userAvatar": "user_avatar3.png",
+        "username": "SamJohnson789",
+        "answerText": "Another approach to sorting an array in JavaScript is by using a custom comparison function...",
+        "postedDate": "2023-06-01"
+      },
+      {
+        "userAvatar": "user_avatar4.png",
+        "username": "EmilyBrownXYZ",
+        "answerText": "I recommend using a popular JavaScript library such as 'Lodash' for sorting arrays...",
+        "postedDate": "2023-16-01"
+      }
+    ]
+  }
